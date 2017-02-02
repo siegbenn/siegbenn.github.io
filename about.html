@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>About Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/tachyons.min.css">
+    <body class="bg-washed-yellow">
+        <article>
+            <header class="bg-blue sans-serif">
+                <div class="mw9 center pa4 pt5-ns ph7-l">
+                    <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+                        <span class="bg-black-90 lh-copy white pa1 tracked-tight">
+                        About Me
+                        </span>
+                    </h3>
+                    <h4 class="f3 fw1 georgia i">
+                        Programming, hockey, bass guitar and everything inbetween.
+                    </h4>
+                </div>
+            </header>
+            <div class="pa4 ph7-l georgia mw9-l center">
+                <div class="pt3 pb3">
+                    <div class="db dtc-ns v-mid-ns">
+                        <img src="img/classy_headshot.png" alt="Headshot of Bennett" class="w-100 mw7 w5-ns" />
+                    </div>
+                    <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
+                        <p class="f5 f5-m f4-ns lh-copy measure">
+                            Hi, I'm Bennett. I’m a full stack web developer at Green Mountain Software. I’m an avid telemark skier, bass player, music listener and reader. I’m an alumni of the University of Vermont and currently live in Burlington, Vermont.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <section class="mw7 center">
+                <h2 class="pl3 f3 f3-m f2-ns lh-copy measure georgia">Projects I've Worked On</h2>
+                <article class="pv4 bt bb b--black-10 ph3 ph0-l">
+                    <div class="flex flex-column flex-row-ns">
+                        <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                            <h1 class="f3 athelas mt0 lh-title">Vehicle Data-Collection and Reporting Web App</h1>
+                            <p class="f5 f4-l lh-copy athelas">
+                                I worked with the researchers at <a class="pink" href="http://www.epri.com/Pages/Default.aspx">EPRI</a> on a data collection project involving remote hybrid vehicles. The data was processed with Apache Spark to create summary reports. The image shows an accompanying web app we built to monitor the fleet. For more information <a class="pink" href="http://mydocs.epri.com/docs/CorporateDocuments/SectorPages/Portfolio/PDM/PHEV-ExecSum-vol1.pdf">click here</a>.
+                            </p>
+                        </div>
+                        <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                            <img src="img/phev.png" class="db" alt="PHEV Dashboard Screenshot">
+                        </div>
+                    </div>
+                </article>
+                <article class="pv4 bb b--black-10 ph3 ph0-l">
+                    <div class="flex flex-column flex-row-ns">
+                        <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                            <h1 class="f3 athelas mt0 lh-title">Dynapower Remote Monitoring System</h1>
+                            <p class="f5 f4-l lh-copy athelas">
+                                For <a class="pink" href="http://dynapower.com/">Dynapower</a>, we built a remote monitoring system SaaS for power transformers. My main contribution in this project was the graphing system. After failing with SQL, I created a data pipeline to process the graphing data (coming in at thousands of points-per-second) using Amazon Kinesis and a point reduction algorithm. The graphs now load in faster than you can say "Oklahoma."
+                            </p>
+                        </div>
+                        <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                            <img src="img/dynapower.png" class="db" alt="Dynapower Dashboard Screenshot">
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <div class="pa4 ph7-l georgia mw9-l center">
+                <h2 class="f3 f3-m f2-ns lh-copy measure georgia">Things I Love</h2>
+                <ul class="f5 f5-m f4-ns lh-copy measure georgia">
+                    <li>As I mentioned above, I'm an avid skier. I would go every day if I could.</li>
+                    <li>I have been playing bass for ten years. The only downside is the massive amp.</li>
+                    <li>I have been trying to teach myself hockey. I'm not good.
+                    <li>The best book I've read recently is: <i>Kitchen Confidential</i> by Anthony Bourdain.</li>
+                </ul>
+                <h2 class="f3 f3-m f2-ns lh-copy measure georgia">My Favorite Poem</h2>
+                <div class="pa3">
+                    <blockquote class="athelas ml0 mt0 pl4 black-90 bl bw2 b--green">
+                        <p class="f5 f4-m f3-l lh-copy measure mt0">
+                            Walking by flashlight<br>
+                            at six in the morning,<br>
+                            my circle of light on the gravel<br>
+                            swinging side to side,<br>
+                            coyote, raccoon, field mouse, sparrow,<br>
+                            each watching from darkness<br>
+                            this man with the moon on a leash.<br>
+                        </p>
+                        <cite class="f6 ttu tracked fs-normal">―Ted Kooser</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </article>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-91332412-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>
